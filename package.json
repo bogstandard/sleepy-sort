@@ -1,6 +1,6 @@
 {
   "name": "sleepy-sort",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sleep Sort implemented on the Array Prototype.",
   "main": "index.js",
   "scripts": {

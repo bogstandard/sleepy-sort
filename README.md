@@ -6,7 +6,7 @@ It will mutate the array.
 ## Example Usage
 The method will return the time it will take to finishing sorting.
 ```
-let timeToSort = [5,4,3,2,1].sleepySort();
+let timeToSort = [5,4,3,2,1].sleepSort();
 ```
 
 The method by default sorts in ascending order, set the first parameter to `false` to sort in descending order.
@@ -14,7 +14,7 @@ The method by default sorts in ascending order, set the first parameter to `fals
 The method accepts a callback which is passed the result on sorting completion.
 
 ```
-let timeToSort = [5,4,3,2,1].sleepySort(true, function(result){
+let timeToSort = [5,4,3,2,1].sleepSort(true, function(result){
     console.log('Sorted Array:' result)
 });
 
